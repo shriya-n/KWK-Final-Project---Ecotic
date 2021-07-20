@@ -16,6 +16,8 @@
 		A88C94CE26A766E100A54553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88C94CC26A766E100A54553 /* LaunchScreen.storyboard */; };
 		A88C94D926A766E100A54553 /* KWK_Final_Project___EcoticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94D826A766E100A54553 /* KWK_Final_Project___EcoticTests.swift */; };
 		A88C94E426A766E100A54553 /* KWK_Final_Project___EcoticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94E326A766E100A54553 /* KWK_Final_Project___EcoticUITests.swift */; };
+		A88C94F226A76CEE00A54553 /* GetResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */; };
+		A88C94F426A770D800A54553 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F326A770D800A54553 /* LogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A88C94DF26A766E100A54553 /* KWK Final Project - EcoticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK Final Project - EcoticUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88C94E326A766E100A54553 /* KWK_Final_Project___EcoticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KWK_Final_Project___EcoticUITests.swift"; sourceTree = "<group>"; };
 		A88C94E526A766E100A54553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetResourcesViewController.swift; sourceTree = "<group>"; };
+		A88C94F326A770D800A54553 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				A88C94C026A766E000A54553 /* SceneDelegate.swift */,
 				A88C94C226A766E000A54553 /* ViewController.swift */,
 				A88C94C426A766E000A54553 /* Main.storyboard */,
+				A88C94F326A770D800A54553 /* LogViewController.swift */,
+				A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */,
 				A88C94CA26A766E100A54553 /* Assets.xcassets */,
 				A88C94CC26A766E100A54553 /* LaunchScreen.storyboard */,
 				A88C94CF26A766E100A54553 /* Info.plist */,
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88C94F226A76CEE00A54553 /* GetResourcesViewController.swift in Sources */,
 				A88C94C326A766E000A54553 /* ViewController.swift in Sources */,
 				A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */,
+				A88C94F426A770D800A54553 /* LogViewController.swift in Sources */,
 				A88C94C126A766E000A54553 /* SceneDelegate.swift in Sources */,
 				A88C94C926A766E000A54553 /* KWK_Final_Project___Ecotic.xcdatamodeld in Sources */,
 			);
