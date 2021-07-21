@@ -35,6 +35,37 @@ class GetResourcesViewController: UIViewController {
         UIApplication.shared.open(FoodPrint!)
     }
     
+    @IBAction func OLIObtn(_ sender: UIButton) {
+        let olio = URL (string: "https://olioex.com/food-waste/the-problem-of-food-waste/")
+        UIApplication.shared.open(olio!)
+    }
+    
+    @IBAction func RTSbtn(_ sender: UIButton) {
+        let rts = URL (string: "https://www.rts.com/resources/guides/food-waste-america/")
+        UIApplication.shared.open(rts!)
+    }
+    
+    @IBAction func feedingAmericabtn(_ sender: UIButton) {
+        let feedingAmca = URL (string: "https://www.feedingamerica.org/our-work/our-approach/reduce-food-waste")
+        UIApplication.shared.open(feedingAmca!)
+    }
+    
+    @IBAction func medicalNewsTodaybtn(_ sender: UIButton) {
+        let medicalNews = URL (string: "https://www.medicalnewstoday.com/articles/327325")
+        UIApplication.shared.open(medicalNews!)
+    }
+    
+    @IBAction func foodPrintbtn(_ sender: UIButton) {
+        let foodprint2 = URL (string: "https://foodprint.org/how-to-take-action/")
+        UIApplication.shared.open(foodprint2!)
+    }
+    
+    @IBAction func hennepinbtn(_ sender: UIButton) {
+        let foodprint2 = URL (string: "https://www.hennepin.us/choose-to-reuse/tips/leftover-ideas")
+        UIApplication.shared.open(foodprint2!)
+    }
+    
+    
     
     /*
     // MARK: - Navigation
