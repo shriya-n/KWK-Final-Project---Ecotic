@@ -30,6 +30,7 @@ class LogViewController: UIViewController {
     @IBOutlet weak var saturdayTextField: UITextField!
     @IBOutlet weak var saturdayLabel: UILabel!
     
+    @IBOutlet weak var bottomLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -88,6 +89,8 @@ class LogViewController: UIViewController {
         }
     }
     
+    @IBAction func bottomBtn(_ sender: UIButton) {
+    }
     
     /*
     // MARK: - Navigation
