@@ -18,6 +18,7 @@
 		A88C94E426A766E100A54553 /* KWK_Final_Project___EcoticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94E326A766E100A54553 /* KWK_Final_Project___EcoticUITests.swift */; };
 		A88C94F226A76CEE00A54553 /* GetResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */; };
 		A88C94F426A770D800A54553 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F326A770D800A54553 /* LogViewController.swift */; };
+		A88C94F626A79AD100A54553 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F526A79AD100A54553 /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A88C94E526A766E100A54553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetResourcesViewController.swift; sourceTree = "<group>"; };
 		A88C94F326A770D800A54553 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		A88C94F526A79AD100A54553 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		A88C94B226A766E000A54553 = {
 			isa = PBXGroup;
 			children = (
+				A88C94F526A79AD100A54553 /* ResourcesViewController.swift */,
 				A88C94BD26A766E000A54553 /* KWK Final Project - Ecotic */,
 				A88C94D726A766E100A54553 /* KWK Final Project - EcoticTests */,
 				A88C94E226A766E100A54553 /* KWK Final Project - EcoticUITests */,
@@ -270,6 +273,7 @@
 				A88C94F226A76CEE00A54553 /* GetResourcesViewController.swift in Sources */,
 				A88C94C326A766E000A54553 /* ViewController.swift in Sources */,
 				A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */,
+				A88C94F626A79AD100A54553 /* ResourcesViewController.swift in Sources */,
 				A88C94F426A770D800A54553 /* LogViewController.swift in Sources */,
 				A88C94C126A766E000A54553 /* SceneDelegate.swift in Sources */,
 				A88C94C926A766E000A54553 /* KWK_Final_Project___Ecotic.xcdatamodeld in Sources */,
