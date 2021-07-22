@@ -50,6 +50,9 @@
                                 <state key="normal" image="Get Resources - Button">
                                     <attributedString key="attributedTitle"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cQe-02-3Te" kind="show" id="p1k-ly-cnL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBb-fz-PHi">
                                 <rect key="frame" x="215" y="277" width="166" height="196"/>
@@ -559,11 +562,11 @@
             <objects>
                 <viewController id="cQe-02-3Te" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E8z-ug-w5S">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U8f-3B-FXO">
-                                <rect key="frame" x="0.0" y="108" width="414" height="696"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="686"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4XU-QZ-wj5">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="978"/>
@@ -591,52 +594,226 @@
                                                     <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="fbA-52-hRK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AI-60-Rkg">
-                                                <rect key="frame" x="61" y="638" width="293" height="36"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTg-Lt-Irt">
+                                                <rect key="frame" x="61" y="88" width="293" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="Rescuing Leftover Cuisine">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="KnW-hX-8QW"/>
-                                                    <action selector="RescuingLeftoverbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="Pz5-3e-EY1"/>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="VMt-im-yuF"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifn-Ya-Pnx">
-                                                <rect key="frame" x="8" y="934" width="293" height="36"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiQ-rx-WGL">
+                                                <rect key="frame" x="61" y="132" width="293" height="36"/>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Food Print">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="UgA-og-4Ie"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnS-pg-5wF">
+                                                <rect key="frame" x="61" y="176" width="293" height="36"/>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="OLIO">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="jTI-7Q-pxH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qi5-UF-aOe">
+                                                <rect key="frame" x="61" y="220" width="293" height="36"/>
+                                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="RTS">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="Yko-A7-NbL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8w-FW-gwg">
+                                                <rect key="frame" x="61" y="264" width="293" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="Feeding America">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="FoodPrintbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="YJu-Oq-Nj4"/>
-                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="b8G-EC-3jb"/>
-                                                    <action selector="OLIObtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="imN-EK-ZlK"/>
-                                                    <action selector="RTSbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="TTa-VU-NHX"/>
-                                                    <action selector="feedingAmericabtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="aFN-Z5-bHh"/>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="f3w-Nm-Wye"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9j-gS-BWb">
+                                                <rect key="frame" x="61" y="308" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Medical News Today">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="Qbl-kl-vEE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VQ-pz-21t">
+                                                <rect key="frame" x="61" y="352" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Food Print">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="HKZ-iv-wR8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ztg-s6-vx5">
+                                                <rect key="frame" x="61" y="396" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Hennepin">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="xRc-LE-nj4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWv-fA-WiQ">
+                                                <rect key="frame" x="61" y="440" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Healthline">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="cxg-jd-Qy0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNQ-hV-juY">
+                                                <rect key="frame" x="61" y="484" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="US FDA">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="ydT-zf-Zmi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E44-yh-PNH">
+                                                <rect key="frame" x="61" y="528" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="BBC Goodfood">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="dF8-dl-SLX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3P-xj-pHx">
+                                                <rect key="frame" x="61" y="572" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="NRDC">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="6KJ-DU-mNT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edP-uU-cED">
+                                                <rect key="frame" x="61" y="616" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="US FAO">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="E5t-BR-gPd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1r-uv-3JR">
+                                                <rect key="frame" x="61" y="660" width="293" height="36"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="UnlockFood">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="NRDCbtn:" destination="7qX-h3-UMr" eventType="touchUpInside" id="ge7-Uz-cYL"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="OTg-Lt-Irt" secondAttribute="trailing" constant="60" id="0q7-Mq-PvY"/>
+                                            <constraint firstItem="1VQ-pz-21t" firstAttribute="top" secondItem="A9j-gS-BWb" secondAttribute="bottom" constant="8" symbolic="YES" id="1P3-ge-DqM"/>
+                                            <constraint firstItem="1VQ-pz-21t" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="3PT-UY-0nL"/>
                                             <constraint firstItem="iQZ-MP-Ohj" firstAttribute="top" secondItem="4XU-QZ-wj5" secondAttribute="top" id="3kb-xh-ayT"/>
+                                            <constraint firstItem="A9j-gS-BWb" firstAttribute="top" secondItem="A8w-FW-gwg" secondAttribute="bottom" constant="8" symbolic="YES" id="3yb-qW-N2R"/>
+                                            <constraint firstAttribute="trailing" secondItem="edP-uU-cED" secondAttribute="trailing" constant="60" id="4PV-iL-uiU"/>
+                                            <constraint firstItem="d3P-xj-pHx" firstAttribute="top" secondItem="E44-yh-PNH" secondAttribute="bottom" constant="8" symbolic="YES" id="5QY-7D-50D"/>
+                                            <constraint firstAttribute="trailing" secondItem="A9j-gS-BWb" secondAttribute="trailing" constant="60" id="8L3-rf-UUO"/>
                                             <constraint firstAttribute="trailing" secondItem="tEu-iQ-FSO" secondAttribute="trailing" constant="60" id="9OT-4c-HJb"/>
-                                            <constraint firstItem="2AI-60-Rkg" firstAttribute="top" secondItem="tEu-iQ-FSO" secondAttribute="bottom" constant="558" id="Btv-Xb-i8S"/>
+                                            <constraint firstAttribute="trailing" secondItem="1VQ-pz-21t" secondAttribute="trailing" constant="60" id="AbB-sK-SsU"/>
+                                            <constraint firstItem="Ztg-s6-vx5" firstAttribute="top" secondItem="1VQ-pz-21t" secondAttribute="bottom" constant="8" symbolic="YES" id="AgA-mJ-kpj"/>
+                                            <constraint firstItem="UiQ-rx-WGL" firstAttribute="top" secondItem="OTg-Lt-Irt" secondAttribute="bottom" constant="8" symbolic="YES" id="BvZ-YY-Sox"/>
+                                            <constraint firstAttribute="trailing" secondItem="P1r-uv-3JR" secondAttribute="trailing" constant="60" id="D8W-gp-reB"/>
+                                            <constraint firstItem="EnS-pg-5wF" firstAttribute="top" secondItem="UiQ-rx-WGL" secondAttribute="bottom" constant="8" symbolic="YES" id="DVq-rL-PM7"/>
+                                            <constraint firstAttribute="trailing" secondItem="UiQ-rx-WGL" secondAttribute="trailing" constant="60" id="E1m-fr-x8c"/>
+                                            <constraint firstAttribute="bottom" secondItem="A8w-FW-gwg" secondAttribute="bottom" constant="678" id="EYI-zL-wuZ"/>
+                                            <constraint firstItem="GNQ-hV-juY" firstAttribute="top" secondItem="dWv-fA-WiQ" secondAttribute="bottom" constant="8" symbolic="YES" id="Eub-tS-HoK"/>
+                                            <constraint firstItem="d3P-xj-pHx" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="Fas-im-7jQ"/>
                                             <constraint firstItem="tEu-iQ-FSO" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="FiB-Rz-jps"/>
-                                            <constraint firstItem="Ifn-Ya-Pnx" firstAttribute="top" secondItem="2AI-60-Rkg" secondAttribute="bottom" constant="260" id="KSd-xD-nc6"/>
-                                            <constraint firstItem="Ifn-Ya-Pnx" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="8" id="LAs-KD-cbv"/>
-                                            <constraint firstItem="2AI-60-Rkg" firstAttribute="top" secondItem="tEu-iQ-FSO" secondAttribute="bottom" constant="558" id="W2Z-pW-KW2"/>
+                                            <constraint firstAttribute="trailing" secondItem="Qi5-UF-aOe" secondAttribute="trailing" constant="60" id="GDc-e5-04f"/>
+                                            <constraint firstItem="P1r-uv-3JR" firstAttribute="top" secondItem="edP-uU-cED" secondAttribute="bottom" constant="8" symbolic="YES" id="HV4-7r-RBs"/>
+                                            <constraint firstItem="GNQ-hV-juY" firstAttribute="top" secondItem="dWv-fA-WiQ" secondAttribute="bottom" constant="8" symbolic="YES" id="INb-fF-MCq"/>
+                                            <constraint firstItem="edP-uU-cED" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="Jfc-PY-gEs"/>
+                                            <constraint firstAttribute="trailing" secondItem="d3P-xj-pHx" secondAttribute="trailing" constant="60" id="Khz-ac-ELU"/>
+                                            <constraint firstItem="Qi5-UF-aOe" firstAttribute="top" secondItem="EnS-pg-5wF" secondAttribute="bottom" constant="8" symbolic="YES" id="MGw-zO-we6"/>
+                                            <constraint firstItem="A8w-FW-gwg" firstAttribute="top" secondItem="Qi5-UF-aOe" secondAttribute="bottom" constant="8" symbolic="YES" id="Rl5-jI-Wqa"/>
+                                            <constraint firstItem="Qi5-UF-aOe" firstAttribute="top" secondItem="EnS-pg-5wF" secondAttribute="bottom" constant="8" symbolic="YES" id="RmX-QN-enh"/>
+                                            <constraint firstAttribute="trailing" secondItem="EnS-pg-5wF" secondAttribute="trailing" constant="60" id="ST8-PV-eYb"/>
+                                            <constraint firstAttribute="trailing" secondItem="GNQ-hV-juY" secondAttribute="trailing" constant="60" id="T2W-wR-IPD"/>
+                                            <constraint firstItem="Ztg-s6-vx5" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="TPP-to-64H"/>
+                                            <constraint firstAttribute="trailing" secondItem="E44-yh-PNH" secondAttribute="trailing" constant="60" id="UDF-e5-zIo"/>
+                                            <constraint firstItem="dWv-fA-WiQ" firstAttribute="top" secondItem="Ztg-s6-vx5" secondAttribute="bottom" constant="8" symbolic="YES" id="Z1B-oA-Z1X"/>
+                                            <constraint firstItem="A9j-gS-BWb" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="aZi-jZ-egE"/>
+                                            <constraint firstItem="P1r-uv-3JR" firstAttribute="top" secondItem="edP-uU-cED" secondAttribute="bottom" constant="8" symbolic="YES" id="ayQ-Q3-oBU"/>
+                                            <constraint firstItem="OTg-Lt-Irt" firstAttribute="top" secondItem="tEu-iQ-FSO" secondAttribute="bottom" constant="8" symbolic="YES" id="bIk-nk-pRf"/>
+                                            <constraint firstItem="dWv-fA-WiQ" firstAttribute="top" secondItem="Ztg-s6-vx5" secondAttribute="bottom" constant="8" symbolic="YES" id="bxQ-oR-bX0"/>
+                                            <constraint firstItem="A8w-FW-gwg" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="d8s-Iz-Uqb"/>
+                                            <constraint firstItem="dWv-fA-WiQ" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="dH3-Qc-sK4"/>
+                                            <constraint firstAttribute="trailing" secondItem="dWv-fA-WiQ" secondAttribute="trailing" constant="60" id="dNU-WD-6VP"/>
                                             <constraint firstItem="tEu-iQ-FSO" firstAttribute="top" secondItem="iQZ-MP-Ohj" secondAttribute="bottom" constant="8" symbolic="YES" id="eQP-H1-Srv"/>
+                                            <constraint firstItem="Qi5-UF-aOe" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="eeH-mp-Lrz"/>
+                                            <constraint firstAttribute="bottom" secondItem="P1r-uv-3JR" secondAttribute="bottom" constant="282" id="fN5-Cp-iIS"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ztg-s6-vx5" secondAttribute="trailing" constant="60" id="g0F-DH-Dd5"/>
                                             <constraint firstAttribute="trailing" secondItem="iQZ-MP-Ohj" secondAttribute="trailing" constant="60" id="g7m-6N-tAc"/>
+                                            <constraint firstItem="edP-uU-cED" firstAttribute="top" secondItem="d3P-xj-pHx" secondAttribute="bottom" constant="8" symbolic="YES" id="hem-Ia-A0w"/>
+                                            <constraint firstItem="EnS-pg-5wF" firstAttribute="top" secondItem="UiQ-rx-WGL" secondAttribute="bottom" constant="8" symbolic="YES" id="jSu-Ts-tY3"/>
+                                            <constraint firstItem="A8w-FW-gwg" firstAttribute="top" secondItem="Qi5-UF-aOe" secondAttribute="bottom" constant="8" symbolic="YES" id="jxT-H6-2Tl"/>
+                                            <constraint firstItem="GNQ-hV-juY" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="kVd-m0-A1Z"/>
                                             <constraint firstItem="tEu-iQ-FSO" firstAttribute="top" secondItem="iQZ-MP-Ohj" secondAttribute="bottom" constant="8" symbolic="YES" id="kWx-fc-yRw"/>
+                                            <constraint firstItem="1VQ-pz-21t" firstAttribute="top" secondItem="A9j-gS-BWb" secondAttribute="bottom" constant="8" symbolic="YES" id="lMu-jy-0gd"/>
                                             <constraint firstItem="iQZ-MP-Ohj" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="lbF-ry-6FU"/>
-                                            <constraint firstAttribute="bottom" secondItem="2AI-60-Rkg" secondAttribute="bottom" constant="12" id="nMu-RR-MNs"/>
-                                            <constraint firstAttribute="bottom" secondItem="Ifn-Ya-Pnx" secondAttribute="bottom" constant="8" id="qNU-my-VFl"/>
-                                            <constraint firstAttribute="trailing" secondItem="2AI-60-Rkg" secondAttribute="trailing" constant="60" id="sIM-nT-xBc"/>
-                                            <constraint firstItem="2AI-60-Rkg" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="v2z-RH-1GQ"/>
-                                            <constraint firstAttribute="trailing" secondItem="Ifn-Ya-Pnx" secondAttribute="trailing" constant="113" id="yd8-5j-nxs"/>
+                                            <constraint firstItem="UiQ-rx-WGL" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="m2s-eX-zTU"/>
+                                            <constraint firstItem="UiQ-rx-WGL" firstAttribute="top" secondItem="OTg-Lt-Irt" secondAttribute="bottom" constant="8" symbolic="YES" id="mC5-Nu-c9u"/>
+                                            <constraint firstItem="EnS-pg-5wF" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="mhS-9D-ptk"/>
+                                            <constraint firstItem="E44-yh-PNH" firstAttribute="top" secondItem="GNQ-hV-juY" secondAttribute="bottom" constant="8" symbolic="YES" id="mkh-Oz-jno"/>
+                                            <constraint firstItem="Ztg-s6-vx5" firstAttribute="top" secondItem="1VQ-pz-21t" secondAttribute="bottom" constant="8" symbolic="YES" id="nif-Pw-3t3"/>
+                                            <constraint firstItem="E44-yh-PNH" firstAttribute="top" secondItem="GNQ-hV-juY" secondAttribute="bottom" constant="8" symbolic="YES" id="oNy-tm-Vbi"/>
+                                            <constraint firstAttribute="trailing" secondItem="A8w-FW-gwg" secondAttribute="trailing" constant="60" id="r1R-lR-q4O"/>
+                                            <constraint firstItem="OTg-Lt-Irt" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="tkR-sj-j75"/>
+                                            <constraint firstItem="d3P-xj-pHx" firstAttribute="top" secondItem="E44-yh-PNH" secondAttribute="bottom" constant="8" symbolic="YES" id="uKP-71-ysE"/>
+                                            <constraint firstItem="E44-yh-PNH" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="wAb-eC-g1b"/>
+                                            <constraint firstItem="edP-uU-cED" firstAttribute="top" secondItem="d3P-xj-pHx" secondAttribute="bottom" constant="8" symbolic="YES" id="yvt-NL-mGz"/>
+                                            <constraint firstItem="P1r-uv-3JR" firstAttribute="leading" secondItem="4XU-QZ-wj5" secondAttribute="leading" constant="61" id="z6e-ST-V0n"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -649,6 +826,19 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="bl3-wX-ePf"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="VHQ-tq-y5o"/>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d83-bU-oWa">
+                                <rect key="frame" x="135" y="17" width="145" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KY-7B-FKx">
+                                <rect key="frame" x="61" y="756" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="luv-sF-3ut"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
