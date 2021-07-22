@@ -89,8 +89,6 @@ class LogViewController: UIViewController {
         }
     }
     
-    @IBAction func bottomBtn(_ sender: UIButton) {
-    }
     
     /*
     // MARK: - Navigation

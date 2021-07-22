@@ -318,6 +318,40 @@
             </objects>
             <point key="canvasLocation" x="37.681159420289859" y="830.35714285714278"/>
         </scene>
+        <!--Goals View Controller-->
+        <scene sceneID="PdJ-cq-lBE">
+            <objects>
+                <viewController id="s4K-i0-LFW" customClass="GoalsViewController" customModule="KWK_Final_Project___Ecotic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nwB-i9-ypr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Goals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5r-Ca-Z0l">
+                                <rect key="frame" x="142" y="102" width="130" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trophy Image" translatesAutoresizingMaskIntoConstraints="NO" id="CB6-h7-XG8">
+                                <rect key="frame" x="70" y="180" width="275" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b4f-UH-qcu">
+                                <rect key="frame" x="60" y="489" width="295" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="progressTintColor" red="0.40000000000000002" green="0.0" blue="1" alpha="0.51355546360000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jsH-Fj-UN8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1f-mN-NS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846.37681159420299" y="838.39285714285711"/>
+        </scene>
         <!--Get Resources View Controller-->
         <scene sceneID="IwY-eF-ZON">
             <objects>
@@ -529,6 +563,7 @@
         <image name="Get Resources - Button" width="326" height="422"/>
         <image name="Log Waste - Button" width="328" height="434"/>
         <image name="Screen Shot 2021-07-19 at 11.14.38 AM" width="606" height="498"/>
+        <image name="Trophy Image" width="416" height="416"/>
         <image name="View Goals - Button" width="328" height="430"/>
         <image name="checkmark.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">

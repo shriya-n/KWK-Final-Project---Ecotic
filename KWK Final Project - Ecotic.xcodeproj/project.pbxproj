@@ -19,6 +19,7 @@
 		A88C94F226A76CEE00A54553 /* GetResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */; };
 		A88C94F426A770D800A54553 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F326A770D800A54553 /* LogViewController.swift */; };
 		A88C94F626A79AD100A54553 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F526A79AD100A54553 /* ResourcesViewController.swift */; };
+		A88C94FA26A8FA5000A54553 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94F926A8FA5000A54553 /* GoalsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetResourcesViewController.swift; sourceTree = "<group>"; };
 		A88C94F326A770D800A54553 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		A88C94F526A79AD100A54553 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		A88C94F926A8FA5000A54553 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				A88C94C026A766E000A54553 /* SceneDelegate.swift */,
 				A88C94C226A766E000A54553 /* ViewController.swift */,
 				A88C94C426A766E000A54553 /* Main.storyboard */,
+				A88C94F926A8FA5000A54553 /* GoalsViewController.swift */,
 				A88C94F326A770D800A54553 /* LogViewController.swift */,
 				A88C94F126A76CEE00A54553 /* GetResourcesViewController.swift */,
 				A88C94CA26A766E100A54553 /* Assets.xcassets */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88C94F226A76CEE00A54553 /* GetResourcesViewController.swift in Sources */,
+				A88C94FA26A8FA5000A54553 /* GoalsViewController.swift in Sources */,
 				A88C94C326A766E000A54553 /* ViewController.swift in Sources */,
 				A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */,
 				A88C94F626A79AD100A54553 /* ResourcesViewController.swift in Sources */,
