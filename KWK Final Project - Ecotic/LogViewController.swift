@@ -113,6 +113,17 @@ class LogViewController: UIViewController {
         bottomLabel.text = String(totalWaste) + "lb"
     }
     
+    @IBAction func resetButton(_ sender: UIButton) {
+        wasteArray = []
+        sundayLabel.text = "Sunday"
+        mondayLabel.text = "Monday"
+        tuesdayLabel.text = "Tuesday"
+        wednesdayLabel.text = "Wednesday"
+        thursdayLabel.text = "Thursday"
+        fridayLabel.text = "Friday"
+        saturdayLabel.text = "Saturday"
+    }
+    
     
     /*
     // MARK: - Navigation
