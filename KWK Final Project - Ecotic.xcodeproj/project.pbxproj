@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		968CC81D26A9F1D800A43792 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968CC81C26A9F1D700A43792 /* ResourceViewController.swift */; };
+		968CC82E26AA6DED00A43792 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968CC82D26AA6DED00A43792 /* DonateViewController.swift */; };
 		A872390D26AA1313001451E4 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A872390C26AA1313001451E4 /* CalcViewController.swift */; };
 		A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94BE26A766E000A54553 /* AppDelegate.swift */; };
 		A88C94C126A766E000A54553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94C026A766E000A54553 /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		968CC81C26A9F1D700A43792 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		968CC82D26AA6DED00A43792 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
 		A872390C26AA1313001451E4 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		A88C94BB26A766E000A54553 /* KWK Final Project - Ecotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK Final Project - Ecotic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88C94BE26A766E000A54553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		A88C94B226A766E000A54553 = {
 			isa = PBXGroup;
 			children = (
+				968CC82D26AA6DED00A43792 /* DonateViewController.swift */,
 				968CC81C26A9F1D700A43792 /* ResourceViewController.swift */,
 				A88C94BD26A766E000A54553 /* KWK Final Project - Ecotic */,
 				A88C94D726A766E100A54553 /* KWK Final Project - EcoticTests */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88C94FA26A8FA5000A54553 /* GoalsViewController.swift in Sources */,
+				968CC82E26AA6DED00A43792 /* DonateViewController.swift in Sources */,
 				A88C94C326A766E000A54553 /* ViewController.swift in Sources */,
 				A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */,
 				A88C94F426A770D800A54553 /* LogViewController.swift in Sources */,

@@ -55,44 +55,14 @@ class ResourceViewController: UIViewController {
         UIApplication.shared.open(b8!)
     }
     
-    @IBAction func stopButton(_ sender: UIButton) {
-        let b9 = URL (string: "https://stopwastingfoodmovement.org/food-waste/food-waste-facts/")
-        UIApplication.shared.open(b9!)
-    }
-    
     @IBAction func earthButton(_ sender: UIButton) {
         let b10 = URL (string: "https://earth.org/facts-about-food-waste/")
         UIApplication.shared.open(b10!)
     }
     
-    @IBAction func grundButton(_ sender: UIButton) {
-        let b11 = URL (string: "https://www.respectfood.com/article/11-facts-about-food-wastage/")
-        UIApplication.shared.open(b11!)
-    }
-    
     @IBAction func harvestButton(_ sender: UIButton) {
         let b12 = URL (string: "https://www.ozharvest.org/sustainability/food-waste-facts/")
         UIApplication.shared.open(b12!)
-    }
-    
-    @IBAction func wastebutton(_ sender: UIButton) {
-        let b13 = URL (string: "https://www.stopwaste.org/at-home/reducing-wasted-food/wasted-food-facts")
-        UIApplication.shared.open(b13!)
-    }
-    
-    @IBAction func medicalButton(_ sender: UIButton) {
-        let b14 = URL (string: "https://www.medicalnewstoday.com/articles/327325")
-        UIApplication.shared.open(b14!)
-    }
-    
-    @IBAction func print2Button(_ sender: UIButton) {
-        let b15 = URL (string: "https://foodprint.org/how-to-take-action/")
-        UIApplication.shared.open(b15!)
-    }
-    
-    @IBAction func hennepinButton(_ sender: UIButton) {
-        let b16 = URL (string: "https://www.hennepin.us/choose-to-reuse/tips/leftover-ideas")
-        UIApplication.shared.open(b16!)
     }
     
     @IBAction func healthlineButton(_ sender: UIButton) {
@@ -108,11 +78,6 @@ class ResourceViewController: UIViewController {
     @IBAction func BBCbutton(_ sender: UIButton) {
         let b19 = URL (string: "https://www.bbcgoodfood.com/howto/guide/how-reduce-food-waste")
         UIApplication.shared.open(b19!)
-    }
-    
-    @IBAction func NRDC2button(_ sender: UIButton) {
-        let b20 = URL (string: "https://www.nrdc.org/stories/reducing-food-waste-eight-tips-home-cooks")
-        UIApplication.shared.open(b20!)
     }
     
     @IBAction func USFAObutton(_ sender: UIButton) {
