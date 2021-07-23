@@ -381,13 +381,37 @@
                                     <segue destination="BYZ-38-t0r" kind="showDetail" id="0H5-ha-1Le"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RW7-7n-4XT">
+                                <rect key="frame" x="70" y="571" width="275" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goal- How many pounds of food wasted:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFf-Wo-1L8">
+                                <rect key="frame" x="53" y="527" width="311" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IW-cK-37z">
+                                <rect key="frame" x="170" y="625" width="75" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Set Goal"/>
+                                <connections>
+                                    <action selector="setGoalBtn:" destination="s4K-i0-LFW" eventType="touchUpInside" id="UGq-S9-9G1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jsH-Fj-UN8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="lrD-Bt-nzL"/>
                     <connections>
+                        <outlet property="label" destination="nFf-Wo-1L8" id="EdA-zy-drd"/>
                         <outlet property="progressView" destination="b4f-UH-qcu" id="dzU-ro-DiJ"/>
+                        <outlet property="textField" destination="RW7-7n-4XT" id="79I-d6-9ng"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S1f-mN-NS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -998,7 +1022,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="NHa-yL-TBx"/>
+        <segue reference="0H5-ha-1Le"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Calculate Needs - Button" width="332" height="438"/>

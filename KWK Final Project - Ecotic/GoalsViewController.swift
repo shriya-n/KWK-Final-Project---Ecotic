@@ -9,6 +9,10 @@ import UIKit
 
 class GoalsViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,9 +27,15 @@ class GoalsViewController: UIViewController {
     @IBAction func startCount(sender: UIButton) {
         progressView.progress = 0.0
         progress.completedUnitCount = 0
-        
-        
     }
+    
+    @IBAction func setGoalBtn(_ sender: UIButton) {
+        if let text = textField.text {
+            label.text = "Goal: " + text + "lb of food wasted"
+        }
+    }
+    
+    
     
     /*
     self.progress.completedUnitCount += 1
