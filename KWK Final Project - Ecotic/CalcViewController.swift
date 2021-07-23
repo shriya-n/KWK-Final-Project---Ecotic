@@ -1,36 +1,33 @@
 //
-//  GoalsViewController.swift
+//  CalcViewController.swift
 //  KWK Final Project - Ecotic
 //
-//  Created by  Scholar on 7/21/21.
+//  Created by  Scholar on 7/22/21.
 //
 
 import UIKit
 
-class GoalsViewController: UIViewController {
-
+class CalcViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var ageTextField: UITextField!
     
-    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var label: UILabel!
     
-    let progress = Progress(totalUnitCount: 10)
-    
-    @IBAction func startCount(sender: UIButton) {
-        progressView.progress = 0.0
-        progress.completedUnitCount = 0
-        
-        
+    @IBAction func maleButton(_ sender: UIButton) {
     }
     
-    /*
-    self.progress.completedUnitCount += 1
-    self.progressView.setProgress(Float(self.progress.fractionCompleted), animated: true)
- */
+    @IBAction func femaleButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func calcButton(_ sender: UIButton) {
+    }
+    
     
     /*
     // MARK: - Navigation

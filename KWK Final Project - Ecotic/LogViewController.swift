@@ -32,6 +32,7 @@ class LogViewController: UIViewController {
     
     @IBOutlet weak var bottomLabel: UILabel!
     
+    var wasteArray = [Int]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +44,8 @@ class LogViewController: UIViewController {
         if let sundayLog = sundayTextField.text{
             sundayLabel.text = "Sunday: " + sundayLog + "lb"
             sundayTextField.text = ""
+            let sundayLogInt = Int(sundayLog) ?? 0
+            wasteArray.append(sundayLogInt)
         }
     }
     
@@ -50,6 +53,8 @@ class LogViewController: UIViewController {
         if let mondayLog = mondayTextField.text{
             mondayLabel.text = "Monday: " + mondayLog + "lb"
             mondayTextField.text = ""
+            let mondayLogInt = Int(mondayLog) ?? 0
+            wasteArray.append(mondayLogInt)
         }
     }
     
@@ -57,6 +62,8 @@ class LogViewController: UIViewController {
         if let tuesdayLog = tuesdayTextField.text{
             tuesdayLabel.text = "Tuesday: " + tuesdayLog + "lb"
             tuesdayTextField.text = ""
+            let tuesdayLogInt = Int(tuesdayLog) ?? 0
+            wasteArray.append(tuesdayLogInt)
         }
     }
     
@@ -64,6 +71,8 @@ class LogViewController: UIViewController {
         if let wednesdayLog = wednesdayTextField.text{
             wednesdayLabel.text = "Wednesday: " + wednesdayLog + "lb"
             wednesdayTextField.text = ""
+            let wednesdayLogInt = Int(wednesdayLog) ?? 0
+            wasteArray.append(wednesdayLogInt)
         }
     }
     
@@ -72,6 +81,8 @@ class LogViewController: UIViewController {
         if let thursdayLog = thursdayTextField.text{
             thursdayLabel.text = "Thursday: " + thursdayLog + "lb"
             thursdayTextField.text = ""
+            let thursdayLogInt = Int(thursdayLog) ?? 0
+            wasteArray.append(thursdayLogInt)
         }
     }
     
@@ -79,6 +90,8 @@ class LogViewController: UIViewController {
         if let fridayLog = fridayTextField.text{
             fridayLabel.text = "Friday: " + fridayLog + "lb"
             fridayTextField.text = ""
+            let fridayLogInt = Int(fridayLog) ?? 0
+            wasteArray.append(fridayLogInt)
         }
     }
     
@@ -86,7 +99,18 @@ class LogViewController: UIViewController {
         if let saturdayLog = saturdayTextField.text{
             saturdayLabel.text = "Saturday: " + saturdayLog + "lb"
             saturdayTextField.text = ""
+            let saturdayLogInt = Int(saturdayLog) ?? 0
+            wasteArray.append(saturdayLogInt)
         }
+    }
+    
+   
+    @IBAction func doneButton(_ sender: UIButton) {
+        var totalWaste = 0
+        for number in wasteArray {
+            totalWaste += number
+        }
+        bottomLabel.text = String(totalWaste) + "lb"
     }
     
     

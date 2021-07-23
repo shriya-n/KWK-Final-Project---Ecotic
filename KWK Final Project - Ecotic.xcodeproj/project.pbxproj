@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		968CC81D26A9F1D800A43792 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968CC81C26A9F1D700A43792 /* ResourceViewController.swift */; };
+		A872390D26AA1313001451E4 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A872390C26AA1313001451E4 /* CalcViewController.swift */; };
 		A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94BE26A766E000A54553 /* AppDelegate.swift */; };
 		A88C94C126A766E000A54553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94C026A766E000A54553 /* SceneDelegate.swift */; };
 		A88C94C326A766E000A54553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C94C226A766E000A54553 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		968CC81C26A9F1D700A43792 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		A872390C26AA1313001451E4 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		A88C94BB26A766E000A54553 /* KWK Final Project - Ecotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK Final Project - Ecotic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88C94BE26A766E000A54553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A88C94C026A766E000A54553 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				A88C94C026A766E000A54553 /* SceneDelegate.swift */,
 				A88C94C226A766E000A54553 /* ViewController.swift */,
 				A88C94C426A766E000A54553 /* Main.storyboard */,
+				A872390C26AA1313001451E4 /* CalcViewController.swift */,
 				A88C94F926A8FA5000A54553 /* GoalsViewController.swift */,
 				A88C94F326A770D800A54553 /* LogViewController.swift */,
 				A88C94CA26A766E100A54553 /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 				A88C94BF26A766E000A54553 /* AppDelegate.swift in Sources */,
 				A88C94F426A770D800A54553 /* LogViewController.swift in Sources */,
 				A88C94C126A766E000A54553 /* SceneDelegate.swift in Sources */,
+				A872390D26AA1313001451E4 /* CalcViewController.swift in Sources */,
 				A88C94C926A766E000A54553 /* KWK_Final_Project___Ecotic.xcdatamodeld in Sources */,
 				968CC81D26A9F1D800A43792 /* ResourceViewController.swift in Sources */,
 			);
